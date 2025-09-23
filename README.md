@@ -50,3 +50,7 @@ The clock and reset are required to control the FSM. The valid bit output indica
 # Testbench
 
 The testbench has been provided, but you are encouraged to try writing it yourself and try out other input values for simulation.
+
+# Running the program
+
+You can use either EDA playground or Icarus Verilog with GTKWave to run and simulate the design. Once the code is written using the given logic, debug for any syntax errors and then go on to debug by viewing the waveforms of all the signals until the result is reached. 
