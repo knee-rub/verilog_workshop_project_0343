@@ -1,0 +1,38 @@
+module GCD_finder(
+    input clock,
+    input reset,
+    input [3:0] x_in,
+    input [3:0] y_in,
+    output reg [3:0] gcd,
+    output reg valid);
+
+    //S0: initial 
+    //S1: x>y
+    //S2: x<y
+    //S3: x=y
+    localparam S0 = 2'b00, S1 = 2'b01, S2 = 2'b10, S3 = 2'b11;
+    reg [1:0] present_state, next_state; 
+    reg [3:0] x,y;
+    
+
+    //state register
+    always @(posedge clock, posedge reset) begin
+
+    end
+
+    //output logic
+    always @(*) begin
+
+    end
+
+    //next state logic
+    always @(*) begin
+
+    end
+
+    //x,y reg updation
+    always @(negedge clock) begin
+     
+    end
+
+    endmodule
