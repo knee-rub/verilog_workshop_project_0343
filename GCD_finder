@@ -6,31 +6,28 @@ module GCD_finder(
     output reg [3:0] gcd,
     output reg valid);
 
-    //S0: initial 
-    //S1: x>y
-    //S2: x<y
-    //S3: x=y
+    //S0: initial | S1: x>y | S2: x<y | S3: x=y
     localparam S0 = 2'b00, S1 = 2'b01, S2 = 2'b10, S3 = 2'b11;
     reg [1:0] present_state, next_state; 
     reg [3:0] x,y;
     
 
-    //state register
+    //state register - update the present_state, either to initial state or next_state
     always @(posedge clock, posedge reset) begin
         // add code
     end
 
-    //output logic
+    //output logic - assign values to output valid and gcd depending on the present state (gcd value does not matter when valid is 0)
     always @(*) begin
         // add code
     end
 
-    //next state logic
+    //next state logic - update the next state, depending on present_state, x and y
     always @(*) begin
         // add code
     end
 
-    //x,y reg updation
+    //x,y reg updation - should be assigned to x_in and y_in in the initial state, updated (x=x-y or y=y-x) depending on present_state
     always @(negedge clock) begin
         //add code
     end
