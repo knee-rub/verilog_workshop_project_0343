@@ -47,3 +47,6 @@ The clock and reset are required to control the FSM. The valid bit output indica
 
 * Hint 3: Update the state at the posedge of clock. To ensure that x and y values are updated only after state updation, update the x and y values at the negedge of clock.
 
+# Testbench
+
+The testbench has been provided, but you are encouraged to try writing it yourself and try out other input values for simulation.
