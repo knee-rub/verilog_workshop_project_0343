@@ -17,22 +17,22 @@ module GCD_finder(
 
     //state register
     always @(posedge clock, posedge reset) begin
-
+        // add code
     end
 
     //output logic
     always @(*) begin
-
+        // add code
     end
 
     //next state logic
     always @(*) begin
-
+        // add code
     end
 
     //x,y reg updation
     always @(negedge clock) begin
-     
+        //add code
     end
 
     endmodule
