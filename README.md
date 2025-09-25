@@ -35,10 +35,10 @@ Outputs: valid, gcd(4 bit)
 The clock and reset are required to control the FSM. The valid bit output indicates whether the output has been computed and is a valid result.
 
 * Hint 1: The FSM will include the following states-
-    state 0: initial state
-    state 1: x < y
-    state 2: x > y
-    state 3: x = y
+*     state 0: initial state
+*     state 1: x < y
+*     state 2: x > y
+*     state 3: x = y
 
 * Hint 2: Internal registers are required to store and update the x and y values.
 
